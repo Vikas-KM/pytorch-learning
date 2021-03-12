@@ -6,18 +6,18 @@ t1 = torch.tensor(4.0)
 print(t1)
 print(t1.dtype)  # prints float32
 print(t1.shape)  # prints single empty braces
-
+print('*'*50)
 t2 = torch.tensor([1, 2, 3, 4])
 print(t2)
 print(t2.dtype)  # prints int64
 print(t2.shape)  # prints 4
-
+print('*'*50)
 # tensor needs all values same, so all are converted to float
 t3 = torch.tensor([1.0, 2, 3, 4, 5])
 print(t3)
 print(t3.dtype)  # prints float32
 print(t3.shape)
-
+print('*'*50)
 t4 = torch.tensor([
     [1, 2, 3],
     [4, 5, 6]
@@ -25,7 +25,7 @@ t4 = torch.tensor([
 print(t4)
 print(t4.dtype)
 print(t4.shape)
-
+print('*'*50)
 # Tensors without appropriate size
 # t5 = torch.tensor([
 #     [1,2,3],
